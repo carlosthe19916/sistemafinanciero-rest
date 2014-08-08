@@ -12,7 +12,7 @@
 			<url-pattern>/*</url-pattern>
 		</web-resource-collection>
 		<auth-constraint>
-			<role-name>CAJERO</role-name>
+			<role-name>cajero</role-name>
 		</auth-constraint>
 	</security-constraint>
 
@@ -22,6 +22,6 @@
 	</login-config>
 
 	<security-role>
-		<role-name>CAJERO</role-name>
+		<role-name>cajero</role-name>
 	</security-role>
 </web-app>
